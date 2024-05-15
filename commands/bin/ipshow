@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Check if WLAN interface has an IP address
+if ip addr show wlp3s0 | grep -q 'inet'; then
+    wlan_ip=$(ip addr show wlp3s0 | awk '/inet / {print $2}')
+else
+    wlan_ip="not-connected"
+fi
+
+# Check if Ethernet interface has an IP address
+if ip addr show enp2s0 | grep -q 'inet'; then
+    eth_ip=$(ip addr show enp2s0 | awk '/inet / {print $2}')
+else
+    eth_ip="not-connected"
+fi
+
+echo "WLAN: $wlan_ip | ETH: $eth_ip"
+
