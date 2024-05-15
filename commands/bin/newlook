@@ -2,9 +2,7 @@
 
 wall=$(find ~/Images/wallpaper/ -type f -name "*.jpg" -o -name "*.png" | shuf -n 1)
 
-
 xwallpaper --zoom $wall
-
 
 wal -c
 wal -i $wall
