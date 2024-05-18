@@ -1,0 +1,4 @@
+2024-04-29 10:18:47.829 [info] Log level: Info
+2024-04-29 10:18:47.829 [info] Validating found git in: "git"
+2024-04-29 10:18:47.829 [info] Using git "2.44.0" from "git"
+2024-04-29 10:18:47.829 [warning] Failed to get repository realpath for: "/home/thomas/Documents/projects/multi-effects". Error: ENOENT: no such file or directory, realpath '/home/thomas/Documents/projects/multi-effects'

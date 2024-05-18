@@ -1,0 +1,104 @@
+2024-04-25 11:52:26.392 [info] Log level: Info
+2024-04-25 11:52:26.392 [info] Validating found git in: "git"
+2024-04-25 11:52:26.392 [info] Using git "2.44.0" from "git"
+2024-04-25 11:52:26.392 [info] > git rev-parse --show-toplevel [11ms]
+2024-04-25 11:52:26.392 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-04-25 11:52:26.392 [info] Open repository: /home/thomas/archpacks
+2024-04-25 11:52:26.519 [info] > git rev-parse --show-toplevel [110ms]
+2024-04-25 11:52:26.521 [info] > git config --get commit.template [119ms]
+2024-04-25 11:52:26.558 [info] > git rev-parse --show-toplevel [12ms]
+2024-04-25 11:52:26.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-04-25 11:52:26.608 [info] > git rev-parse --show-toplevel [33ms]
+2024-04-25 11:52:26.623 [info] > git rev-parse --show-toplevel [9ms]
+2024-04-25 11:52:26.633 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-25 11:52:26.644 [info] > git status -z -uall [22ms]
+2024-04-25 11:52:26.674 [info] > git merge-base refs/heads/master refs/remotes/origin/master [17ms]
+2024-04-25 11:52:26.687 [info] > git rev-parse --show-toplevel [44ms]
+2024-04-25 11:52:27.251 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [563ms]
+2024-04-25 11:52:27.258 [info] > git config --get commit.template [585ms]
+2024-04-25 11:52:27.328 [info] > git diff --name-status -z --diff-filter=ADMR e72496f878a09acbbb5a7a5f77cc66b49fc7a781...refs/remotes/origin/master [71ms]
+2024-04-25 11:52:27.329 [info] > git rev-parse --show-toplevel [88ms]
+2024-04-25 11:52:27.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-04-25 11:52:27.465 [info] > git status -z -uall [37ms]
+2024-04-25 11:52:28.752 [info] > git fetch [2367ms]
+2024-04-25 11:52:28.753 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/ThureinMyoMin/archpacks.git/'
+2024-04-25 11:52:28.801 [info] > git config --get commit.template [25ms]
+2024-04-25 11:52:28.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-04-25 11:52:28.861 [info] > git status -z -uall [34ms]
+2024-04-25 11:52:41.628 [info] > git check-ignore -v -z --stdin [5ms]
+2024-04-25 11:52:43.223 [info] > git check-ignore -v -z --stdin [6ms]
+2024-04-25 11:52:46.958 [info] > git check-ignore -v -z --stdin [5ms]
+2024-04-25 11:52:48.382 [info] > git show --textconv :dwm/config.h [26ms]
+2024-04-25 11:52:48.382 [info] > git ls-files --stage -- /home/thomas/archpacks/dwm/config.h [16ms]
+2024-04-25 11:52:48.395 [info] > git cat-file -s f429d8c1a2b0e892e24e9cf3b674f1751fbf8339 [4ms]
+2024-04-25 11:53:11.543 [info] Log level: Info
+2024-04-25 11:53:11.543 [info] Validating found git in: "git"
+2024-04-25 11:53:11.543 [info] Using git "2.44.0" from "git"
+2024-04-25 11:53:11.543 [info] > git rev-parse --show-toplevel [12ms]
+2024-04-25 11:53:11.543 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-04-25 11:53:11.543 [info] Open repository: /home/thomas/Documents/projects/dataCrate
+2024-04-25 11:53:11.543 [info] > git config --get commit.template [14ms]
+2024-04-25 11:53:11.543 [info] > git rev-parse --show-toplevel [9ms]
+2024-04-25 11:53:11.543 [info] No remotes found in the git config file.
+2024-04-25 11:53:11.543 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-25 11:53:11.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-04-25 11:53:11.543 [warning] No such branch: master.
+2024-04-25 11:53:11.562 [info] > git status -z -uall [20ms]
+2024-04-25 11:53:11.563 [info] > git rev-parse --show-toplevel [5ms]
+2024-04-25 11:53:11.620 [info] > git config --get commit.template [13ms]
+2024-04-25 11:53:11.621 [info] > git rev-parse --show-toplevel [25ms]
+2024-04-25 11:53:11.644 [info] No remotes found in the git config file.
+2024-04-25 11:53:11.647 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-04-25 11:53:11.647 [warning] No such branch: master.
+2024-04-25 11:53:12.664 [info] > git status -z -uall [1008ms]
+2024-04-25 11:53:13.261 [info] > git check-ignore -v -z --stdin [20ms]
+2024-04-25 11:53:14.581 [info] > git show --textconv :src/app/todo/todo.component.ts [23ms]
+2024-04-25 11:53:14.586 [info] > git ls-files --stage -- /home/thomas/Documents/projects/dataCrate/src/app/todo/todo.component.ts [6ms]
+2024-04-25 11:53:14.603 [info] > git cat-file -s 383c43aeb0fc0c1ac8ba8a5e1f0417f7fb710a60 [6ms]
+2024-04-25 11:53:29.750 [info] > git fetch [8ms]
+2024-04-25 11:53:29.784 [info] No remotes found in the git config file.
+2024-04-25 11:53:29.785 [info] > git config --get commit.template [18ms]
+2024-04-25 11:53:29.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-04-25 11:53:29.787 [warning] No such branch: master.
+2024-04-25 11:53:29.809 [info] > git status -z -uall [5ms]
+2024-04-25 11:53:30.932 [info] > git config --get commit.template [6ms]
+2024-04-25 11:53:30.951 [info] No remotes found in the git config file.
+2024-04-25 11:53:30.954 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-04-25 11:53:30.955 [warning] No such branch: master.
+2024-04-25 11:53:30.974 [info] > git status -z -uall [4ms]
+2024-04-25 11:53:31.060 [info] > git ls-files --stage -- /home/thomas/Documents/projects/dataCrate/src/app/todo/todo.component.ts [11ms]
+2024-04-25 11:53:31.120 [info] > git cat-file -s 383c43aeb0fc0c1ac8ba8a5e1f0417f7fb710a60 [33ms]
+2024-04-25 11:53:31.171 [info] > git show --textconv :src/app/todo/todo.component.ts [10ms]
+2024-04-25 15:02:57.645 [info] > git fetch [9ms]
+2024-04-25 15:02:57.683 [info] No remotes found in the git config file.
+2024-04-25 15:02:57.687 [info] > git config --get commit.template [21ms]
+2024-04-25 15:02:57.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-04-25 15:02:57.688 [warning] No such branch: master.
+2024-04-25 15:02:57.712 [info] > git status -z -uall [8ms]
+2024-04-25 15:02:59.024 [info] > git config --get commit.template [12ms]
+2024-04-25 15:02:59.054 [info] > git ls-files --stage -- /home/thomas/Documents/projects/dataCrate/src/app/todo/todo.component.ts [3ms]
+2024-04-25 15:02:59.122 [info] No remotes found in the git config file.
+2024-04-25 15:02:59.125 [info] > git cat-file -s 383c43aeb0fc0c1ac8ba8a5e1f0417f7fb710a60 [40ms]
+2024-04-25 15:02:59.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-04-25 15:02:59.127 [warning] No such branch: master.
+2024-04-25 15:02:59.148 [info] > git status -z -uall [4ms]
+2024-04-25 15:02:59.216 [info] > git show --textconv :src/app/todo/todo.component.ts [4ms]
+2024-04-25 15:33:00.108 [info] > git fetch [5ms]
+2024-04-25 15:33:00.131 [info] No remotes found in the git config file.
+2024-04-25 15:33:00.133 [info] > git config --get commit.template [12ms]
+2024-04-25 15:33:00.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-04-25 15:33:00.134 [warning] No such branch: master.
+2024-04-25 15:33:00.147 [info] > git status -z -uall [3ms]
+2024-04-25 15:33:01.225 [info] > git config --get commit.template [8ms]
+2024-04-25 15:33:01.241 [info] No remotes found in the git config file.
+2024-04-25 15:33:01.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-04-25 15:33:01.243 [warning] No such branch: master.
+2024-04-25 15:33:01.254 [info] > git status -z -uall [2ms]
+2024-04-25 15:33:01.300 [info] > git ls-files --stage -- /home/thomas/Documents/projects/dataCrate/src/app/todo/todo.component.ts [2ms]
+2024-04-25 15:33:01.311 [info] > git cat-file -s 383c43aeb0fc0c1ac8ba8a5e1f0417f7fb710a60 [2ms]
+2024-04-25 15:33:01.323 [info] > git show --textconv :src/app/todo/todo.component.ts [2ms]

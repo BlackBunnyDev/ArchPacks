@@ -116,6 +116,10 @@ export PATH="$HOME/.local/bin:$PATH"
 # Load Angular CLI autocompletion.
 source <(ng completion script)
 
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im-ibus
+export QT_IM_MODULE=ibus
+
 pokemon-colorscripts -r &&
 echo "🕱 : Hello Thomas, Welcome from terminal!" &&
 echo ""

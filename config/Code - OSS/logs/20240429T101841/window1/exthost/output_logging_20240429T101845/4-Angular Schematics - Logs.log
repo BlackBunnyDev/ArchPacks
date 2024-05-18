@@ -1,0 +1,20 @@
+[Info - 10:18:48 AM] Starting workspace configuration loading.
+[Info - 10:18:48 AM] 1 workspace folder(s) detected.
+[Info - 10:18:48 AM] Loading configuration of "multiPro" workspace folder.
+[Info - 10:18:48 AM] Loading extension configuration
+[Info - 10:18:48 AM] Loading extension configuration from VS Code settings.
+[Info - 10:18:48 AM] Loading dependencies config from package.json.
+[Info - 10:18:48 AM] Found: /home/thomas/Documents/projects/multiPro/package.json
+[Info - 10:18:48 AM] Found: /home/thomas/Documents/projects/package.json
+[Info - 10:18:48 AM] Found: /home/thomas/Documents/package.json
+[Info - 10:18:48 AM] Found: /home/thomas/package.json
+[Info - 10:18:48 AM] Found: /home/package.json
+[Info - 10:18:48 AM] Loading format configuration
+[Info - 10:18:48 AM] Loading schematics.
+[Info - 10:18:48 AM] 2 schematic(s) loaded.
+[Warning - 10:18:48 AM] No angular.json found
+[Info - 10:18:48 AM] Configuration of all workspace folders is now ready. Duration: 603ms
+[Info - 10:22:39 AM] Reloading format configuration because VS Code settings changed.
+[Info - 10:22:40 AM] Reloading format configuration because VS Code settings changed.
+[Info - 10:24:05 AM] Reloading format configuration because VS Code settings changed.
+[Info - 11:21:43 AM] Reloading format configuration because VS Code settings changed.

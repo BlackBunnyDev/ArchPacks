@@ -1,0 +1,64 @@
+2024-04-29 11:21:39.375 [info] Getting Manifest... asvetliakov.vscode-neovim
+2024-04-29 11:21:39.750 [info] Installing extension: asvetliakov.vscode-neovim
+2024-04-29 11:21:43.236 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-04-29 11:21:43.249 [info] Extension signature verification is not done: asvetliakov.vscode-neovim
+2024-04-29 11:21:43.351 [info] Extracted extension to file:///home/thomas/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.10.1-universal: asvetliakov.vscode-neovim
+2024-04-29 11:21:43.363 [info] Renamed to /home/thomas/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.10.1-universal
+2024-04-29 11:21:43.369 [info] Extracting extension completed. asvetliakov.vscode-neovim
+2024-04-29 11:21:43.388 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2024-04-29 11:21:43.446 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-29 11:23:39.115 [info] Uninstalling extension from the profile: asvetliakov.vscode-neovim@1.10.1 vscode-userdata:/home/thomas/.vscode-oss/extensions/extensions.json
+2024-04-29 11:23:39.279 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.10.1-universal
+2024-04-29 11:23:39.326 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-29 11:23:40.815 [info] Successfully uninstalled extension from the profile asvetliakov.vscode-neovim@1.10.1 vscode-userdata:/home/thomas/.vscode-oss/extensions/extensions.json
+2024-04-29 11:23:49.988 [info] Getting Manifest... vscodevim.vim
+2024-04-29 11:23:50.322 [info] Installing extension: vscodevim.vim
+2024-04-29 11:23:51.220 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-04-29 11:23:51.222 [info] Extension signature verification is not done: vscodevim.vim
+2024-04-29 11:23:51.345 [info] Extracted extension to file:///home/thomas/.vscode-oss/extensions/vscodevim.vim-1.27.2-universal: vscodevim.vim
+2024-04-29 11:23:51.353 [info] Renamed to /home/thomas/.vscode-oss/extensions/vscodevim.vim-1.27.2-universal
+2024-04-29 11:23:51.358 [info] Extracting extension completed. vscodevim.vim
+2024-04-29 11:23:51.376 [info] Extension installed successfully: vscodevim.vim
+2024-04-29 11:23:51.406 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-29 11:34:06.380 [info] Getting Manifest... wayou.vscode-todo-highlight
+2024-04-29 11:34:06.741 [info] Installing extension: wayou.vscode-todo-highlight
+2024-04-29 11:34:10.692 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-04-29 11:34:10.699 [info] Extension signature verification is not done: wayou.vscode-todo-highlight
+2024-04-29 11:34:10.766 [info] Extracted extension to file:///home/thomas/.vscode-oss/extensions/wayou.vscode-todo-highlight-1.0.5-universal: wayou.vscode-todo-highlight
+2024-04-29 11:34:10.777 [info] Renamed to /home/thomas/.vscode-oss/extensions/wayou.vscode-todo-highlight-1.0.5-universal
+2024-04-29 11:34:10.779 [info] Extracting extension completed. wayou.vscode-todo-highlight
+2024-04-29 11:34:10.793 [info] Extension installed successfully: wayou.vscode-todo-highlight
+2024-04-29 11:34:10.864 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)

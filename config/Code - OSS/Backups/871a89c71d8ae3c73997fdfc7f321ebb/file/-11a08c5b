@@ -1,0 +1,29 @@
+file:///home/thomas/Documents/projects/CPlusPlus/BMI_Calculator/main.cpp {"mtime":1715877046623,"ctime":1715877046623,"size":634,"etag":"3cdjnosneke","orphaned":false,"typeId":""}
+#include <iostream>
+
+using std::cout, std::cin;
+
+// Unit Identifier
+int unitIdentifier() {
+  std::string unit;
+  cout << "******************\n* BMI Calculator "
+          "*\n******************\n\nWhat Unit "
+          "do you "
+          "want to use?\nUS units <or> "
+          "Metric units?\n";
+  while (true) {
+    cout << "Type <U> for US units or Type <M> for Metric units\n:";
+    cin >> unit;
+    if (unit == "U" || unit == "M" || unit == "u" || unit == "m") {
+      return unit[0];
+    } else {
+      cout << "Invalid input\n";
+    }
+  }
+}
+
+int main() {
+  char unit = unitIdentifier();
+  cout << unit << "\n";
+  return 0;
+}

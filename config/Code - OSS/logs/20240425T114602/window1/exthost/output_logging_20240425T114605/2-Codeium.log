@@ -1,0 +1,80 @@
+2024-04-25 11:46:07.383 [INFO]: No proxy settings found
+2024-04-25 11:46:09.824 [INFO]: Creating manager directory: /tmp/63f374c2-6f37-4378-b4e1-2edf1670c31f/codeium/manager
+2024-04-25 11:46:09.826 [INFO]: f4ccf0178d5d55b7439fe04a696986fe0deea492 not found, downloading language server
+2024-04-25 11:46:09.829 [INFO]: No proxy settings found
+2024-04-25 11:46:35.983 [INFO]: Language server started
+2024-04-25 11:46:36.154 [INFO]: [Language Server (stderr)]:
+I0425 11:46:36.153459 242456 main.go:553] Starting language server manager with pid 242456
+I0425 11:46:36.153568 242456 main.go:110] Manager acquired its lock file /tmp/63f374c2-6f37-4378-b4e1-2edf1670c31f/codeium/manager/locks/manager.lock
+2024-04-25 11:46:36.155 [INFO]: [Language Server (stderr)]:
+I0425 11:46:36.154101 242456 main.go:248] Waiting for random port file in /tmp/63f374c2-6f37-4378-b4e1-2edf1670c31f/codeium/manager/child_random_port_1714022196153708688_7379789329579308707 to be created
+2024-04-25 11:46:36.316 [INFO]: [Language Server (stderr)]:
+I0425 11:46:36.316317 242466 main.go:547] Starting language server process with pid 242466
+I0425 11:46:36.316385 242466 server.go:157] Language server will attempt to listen on host 127.0.0.1
+I0425 11:46:36.316489 242466 server.go:164] Language server listening on random port at 43657
+2024-04-25 11:46:36.317 [INFO]: [Language Server (stderr)]:
+I0425 11:46:36.316541 242466 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0425 11:46:36.316562 242466 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0425 11:46:36.316581 242466 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-04-25 11:46:37.392 [INFO]: [Language Server (stderr)]:
+I0425 11:46:37.391021 242466 unleash.go:90] Initializing Unleash
+2024-04-25 11:46:39.396 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.394562 242466 unleash.go:110] Successfully initialized Unleash
+E0425 11:46:39.394816 242466 unleash.go:60] Unleash error: Post "https://unleash.codeium.com/api/client/register": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+E0425 11:46:39.394925 242466 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-04-25 11:46:39.416 [INFO]: [Language Server (stderr)]:
+E0425 11:46:39.416083 242466 client_manager.go:262] Metadata is nil when trying to refresh user JWT
+2024-04-25 11:46:39.417 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.416445 242466 server.go:356] Successfully created API server client
+2024-04-25 11:46:39.463 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.462907 242466 server.go:365] Successfully initialized tokenizer
+2024-04-25 11:46:39.464 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.463073 242466 server.go:420] Local search is enabled, will index local files.
+I0425 11:46:39.463088 242466 server.go:424] Using 2 indexer workers
+I0425 11:46:39.463122 242466 search_provider.go:164] Using database at /home/thomas/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-04-25 11:46:39.466 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.466235 242466 search_provider.go:176] Successfully created embedding search database
+2024-04-25 11:46:39.467 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.466530 242466 search_provider.go:198] Successfully created and started indexer
+I0425 11:46:39.466554 242466 search_provider.go:224] Successfully created embedding search provider
+I0425 11:46:39.466562 242466 server.go:458] Successfully created exact search provider
+2024-04-25 11:46:39.472 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.472371 242466 server.go:486] Successfully created completion provider
+2024-04-25 11:46:39.550 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.549785 242466 server.go:576] Child process attempting to acquire lock file /tmp/63f374c2-6f37-4378-b4e1-2edf1670c31f/codeium/manager/locks/child_lock_1714022196153740386_916107272221372494
+I0425 11:46:39.549849 242466 server.go:586] Child process acquired lock file /tmp/63f374c2-6f37-4378-b4e1-2edf1670c31f/codeium/manager/locks/child_lock_1714022196153740386_916107272221372494
+2024-04-25 11:46:39.555 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.554494 242466 server.go:184] LSP listening on random port at 37761
+2024-04-25 11:46:39.555 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.554975 242466 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:41507
+2024-04-25 11:46:39.572 [INFO]: [Language Server (stdout)]:
+37761
+2024-04-25 11:46:39.573 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.572519 242456 main.go:284] Language server manager found random server port 43657
+I0425 11:46:39.572547 242456 main.go:285] Language server manager found random lsp port 37761
+I0425 11:46:39.572563 242456 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:43657
+2024-04-25 11:46:39.609 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.609064 242456 main.go:163] Fixing language server port at 43657
+I0425 11:46:39.609109 242456 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:43657
+2024-04-25 11:46:39.613 [INFO]: Found language server running on port 43657
+2024-04-25 11:46:39.634 [INFO]: Downloaded binary: /home/thomas/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-04-25 11:46:39.649 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.649158 242466 rpcs_miscellaneous.go:103] Ripgrep available at /home/thomas/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-04-25 11:46:39.653 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.653298 242466 utils.go:159] Analyzing workspace files for /home/thomas/archpacks/
+2024-04-25 11:46:39.656 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.655716 242466 utils.go:214] Done analyzing workspace files for /home/thomas/archpacks/
+I0425 11:46:39.655733 242466 lsp.go:186] Found 107 files in workspace /home/thomas/archpacks/
+2024-04-25 11:46:39.657 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.656991 242466 indexing_listener.go:151] Add workspace event with uid: 1
+2024-04-25 11:46:39.662 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.661904 242466 lazy_model.go:29] Successfully created faiss index
+2024-04-25 11:46:39.799 [INFO]: [Language Server (stderr)]:
+I0425 11:46:39.799034 242466 indexing_listener.go:179] Done enqueue workspace with uid: 1
+2024-04-25 11:46:40.256 [INFO]: [Language Server (stderr)]:
+I0425 11:46:40.255393 242466 rpcs_miscellaneous.go:297] University version is up to date.
+2024-04-25 11:52:04.525 [INFO]: Disposing language server process
+2024-04-25 11:52:04.525 [INFO]: Deleting manager directory: /tmp/63f374c2-6f37-4378-b4e1-2edf1670c31f/codeium/manager
+2024-04-25 11:52:04.527 [INFO]: Successfully disposed language server
+2024-04-25 11:52:04.545 [INFO]: [Language Server (stderr)]:
+W0425 11:52:04.525863 242456 main.go:114] Language server manager got signal terminated, shutting down

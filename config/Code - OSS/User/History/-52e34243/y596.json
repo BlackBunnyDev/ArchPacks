@@ -1,0 +1,70 @@
+{
+    "workbench.sideBar.location": "right",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "editor.tabSize": 2,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.languageSettings": [],
+  
+    "tailwindCSS.includeLanguages": {
+      "javascript": "javascript",
+      "javascriptreact": "javascript",
+      "typescript": "typescript",
+      "typescriptreact": "typescript"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "powermode.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.wordWrap": "on",
+    "powermode.combo.counterEnabled": "show",
+    "powermode.combo.timeout": 3,
+    "powermode.shake.enabled": false,
+    "powermode.presets": "fireworks",
+    "powermode.combo.threshold": 100,
+    "hediet.vscode-drawio.resizeImages": null,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.env.windows": {},
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vite.autoStart": false,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontFamily": "Cascadia Code,Noto Sans Symbols,Martian Mono, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "console-ninja.featureSet": "Community",
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
+    "window.customTitleBarVisibility": "auto",
+    "workbench.activityBar.location": "hidden",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.editor.showTabs": "none",
+    "extensions.experimental.affinity": {
+      "asvetliakov.vscode-neovim": 1
+    },
+    "glassit.alpha": 230,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true
+  }
+  

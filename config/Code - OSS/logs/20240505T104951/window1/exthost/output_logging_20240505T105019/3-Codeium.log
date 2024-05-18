@@ -1,0 +1,9 @@
+2024-05-05 10:50:21.549 [INFO]: No proxy settings found
+2024-05-05 10:50:24.442 [INFO]: Creating manager directory: /tmp/908e6d37-c372-40e1-9abe-762df32ef9a0/codeium/manager
+2024-05-05 10:50:24.752 [INFO]: Using cached LS with valid crc32: /home/thomas/.vscode-oss/extensions/codeium.codeium-1.8.28-universal/dist/f4ccf0178d5d55b7439fe04a696986fe0deea492/language_server_linux_x64
+2024-05-05 10:50:24.760 [INFO]: Language server started
+2024-05-05 10:50:24.994 [INFO]: [Language Server (stderr)]:
+I0505 10:50:24.993186 147988 main.go:553] Starting language server manager with pid 147988
+I0505 10:50:24.993296 147988 main.go:110] Manager acquired its lock file /tmp/908e6d37-c372-40e1-9abe-762df32ef9a0/codeium/manager/locks/manager.lock
+2024-05-05 10:50:24.994 [INFO]: [Language Server (stderr)]:
+I0505 10:50:24.993766 147988 main.go:248] Waiting for random port file in /tmp/908e6d37-c372-40e1-9abe-762df32ef9a0/codeium/manager/child_random_port_1714882824993419423_8938903398390153248 to be created

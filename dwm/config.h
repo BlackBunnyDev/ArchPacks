@@ -1,5 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
+#include <X11/Xlib.h>
+#include <X11/Xutil.h>
 /* appearance */
 static const unsigned int borderpx = 3; /* border pixel of windows */
 static const unsigned int gappx = 5;    /* gaps between windows */
@@ -96,7 +98,8 @@ static Key keys[] = {
     {MODKEY, XK_r, setlayout, {.v = &layouts[2]}},
     {MODKEY | ShiftMask, XK_r, togglefloating, {0}},
     {MODKEY, XK_t, setlayout, {0}},
-    {MODKEY, XK_space, spawn, {.v = dmenucmd}},
+    /*{MODKEY, XK_space, spawn, {.v = dmenucmd}},*/
+    {MODKEY, XK_w, spawn, {.v = dmenucmd}},
     {MODKEY, XK_Return, spawn, {.v = termcmd}},
     {MODKEY, XK_z, spawn, {.v = takeSs}},
 

@@ -1,0 +1,9 @@
+2024-05-05 10:50:29.863 [info] Deleted uninstalled extension from disk vscodevim.vim /home/thomas/.vscode-oss/extensions/vscodevim.vim-1.27.2-universal
+2024-05-05 10:50:29.906 [info] Deleted uninstalled extension from disk angular.ng-template /home/thomas/.vscode-oss/extensions/angular.ng-template-17.3.0-universal
+2024-05-05 10:50:29.959 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/angular.ng-template-17.3.0-universal.6c0d2e07.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/angular.ng-template-17.3.0-universal.6c0d2e07.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:29989)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30100)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109493)

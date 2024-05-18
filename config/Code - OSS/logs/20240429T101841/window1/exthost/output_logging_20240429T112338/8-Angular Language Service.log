@@ -1,0 +1,7 @@
+[Info  - 11:34:29 AM] Angular language server process ID: 580530
+[Info  - 11:34:29 AM] Imported typescript/lib/tsserverlibrary is version 5.3.2.
+[Info  - 11:34:29 AM] Using @angular/language-service v17.3.0 from /home/thomas/.vscode-oss/extensions/angular.ng-template-17.3.0-universal/node_modules/@angular/language-service/index.js
+[Info  - 11:34:29 AM] Logging is turned off. To enable, run command 'Open Angular server log'.
+[Info  - 11:34:30 AM] @angular/core could not be found for project /home/thomas/Documents/projects/multiPro/tsconfig.json but it has references that might. The Angular language service will remain enabled for this project.
+[Info  - 11:34:31 AM] Disabling language service for /home/thomas/Documents/projects/multiPro/tsconfig.node.json because project is not an Angular project ('@angular/core' could not be found).
+[Error - 11:37:41 AM] No config file for /home/thomas/Documents/projects/multiPro/index.html

@@ -1,0 +1,53 @@
+2024-04-29 08:34:02.655 [info] Extension host with pid 221491 started
+2024-04-29 08:34:02.655 [info] Skipping acquiring lock for /home/thomas/.config/Code - OSS/User/workspaceStorage/6e291574e3395a4f3e40d89721ca75e8.
+2024-04-29 08:34:02.711 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-29 08:34:02.715 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-04-29 08:34:02.731 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-04-29 08:34:02.732 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-29 08:34:02.744 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-04-29 08:34:02.763 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-04-29 08:34:02.945 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-29 08:34:02.975 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-29 08:34:03.100 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-29 08:34:03.126 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-29 08:34:03.165 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-29 08:34:03.276 [info] Eager extensions activated
+2024-04-29 08:34:03.286 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.287 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.294 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.307 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.309 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.456 [info] ExtensionService#_doActivateExtension cyrilletuzi.angular-schematics, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.664 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.673 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:03.704 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 08:34:05.470 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-04-29 08:34:05.498 [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+2024-04-29 08:34:16.691 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-29 08:34:16.740 [error] Canceled: Canceled
+    at new O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:142:46998)
+    at u.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:149:5539)
+    at Proxy.F.<computed>.T.charCodeAt.F.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:149:2993)
+    at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:186335)
+    at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:185773)
+    at E.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:185097)
+    at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:186874)
+    at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:185866)
+    at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:152:185773)
+    at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:162:22785)
+    at LT (/home/thomas/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.2-universal/dist/extension.js:43:6988)
+    at /home/thomas/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.2-universal/dist/extension.js:43:15292
+    at er (/home/thomas/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.2-universal/dist/extension.js:4:1357)
+    at Zn (/home/thomas/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.2-universal/dist/extension.js:3:6843)
+    at Immediate.<anonymous> (/home/thomas/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.2-universal/dist/extension.js:3:6721)
+    at processImmediate (node:internal/timers:476:21) setContext undefined
+2024-04-29 08:34:16.765 [error] Error: Channel has been closed
+    at d (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:155:2490)
+    at Object.appendLine (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:155:2608)
+    at S.logOutputMessage (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:265166)
+    at S.error (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:265057)
+    at ChildProcess.<anonymous> (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:446046)
+    at ChildProcess.emit (node:events:517:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-29 08:34:16.767 [info] Extension host with pid 221491 exiting with code 0

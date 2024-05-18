@@ -1,0 +1,68 @@
+<form action="" (submit)="onSubmit()" [formGroup]="todo">
+  <input type="text" formControlName="object" class="border-2 border-black" />
+  <button type="submit"></button>
+</form>
+
+<ul>
+  <li *ngFor="let todo of todoList">
+    <ng-container
+      *ngIf="todo.complete == false; else empty"
+      class="flex w-[30vw] px-3 py-2 border-2 border-black justify-between my-2"
+    >
+      <div
+        class="flex w-[30vw] px-3 py-2 border-2 border-black justify-between my-2"
+      >
+        <div class="flex gap-2 items-center">
+          <input
+            type="checkbox"
+            (change)="todo.complete = !todo.complete"
+            class="w-5 h-5"
+            [checked]="todo.complete"
+          />
+          <div>
+            {{ todo.object }}
+          </div>
+        </div>
+        <button
+          class="px-4 h-full bg-red-400"
+          (click)="todoList.splice(todoList.indexOf(todo), 1)"
+        >
+          Delete
+        </button>
+      </div>
+    </ng-container>
+    <ng-template #empty class="hidden"></ng-template>
+  </li>
+</ul>
+<ul>
+  <h2>completed</h2>
+  <li *ngFor="let todo of todoList">
+    <ng-container
+      *ngIf="todo.complete == true; else empty"
+      class="flex w-[30vw] px-3 py-2 border-2 border-black justify-between my-2"
+    >
+      <div
+        class="flex w-[30vw] px-3 py-2 border-2 border-black justify-between my-2"
+      >
+        <div class="flex gap-2 items-center">
+          <input
+            type="checkbox"
+            (change)="todo.complete = !todo.complete"
+            class="w-5 h-5"
+            [checked]="todo.complete"
+          />
+          <div>
+            {{ todo.object }}
+          </div>
+        </div>
+        <button
+          class="px-4 h-full bg-red-400"
+          (click)="todoList.splice(todoList.indexOf(todo), 1)"
+        >
+          Delete
+        </button>
+      </div>
+    </ng-container>
+    <ng-template #empty class="hidden"></ng-template>
+  </li>
+</ul>

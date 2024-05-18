@@ -1,0 +1,21 @@
+[Info - 11:53:13 AM] Starting workspace configuration loading.
+[Info - 11:53:13 AM] 1 workspace folder(s) detected.
+[Info - 11:53:13 AM] Loading configuration of "dataCrate" workspace folder.
+[Info - 11:53:13 AM] Loading extension configuration
+[Info - 11:53:13 AM] Loading extension configuration from VS Code settings.
+[Info - 11:53:13 AM] Loading dependencies config from package.json.
+[Info - 11:53:13 AM] Found: /home/thomas/Documents/projects/dataCrate/package.json
+[Info - 11:53:13 AM] Found: /home/thomas/Documents/projects/package.json
+[Info - 11:53:13 AM] Found: /home/thomas/Documents/package.json
+[Info - 11:53:13 AM] Found: /home/thomas/package.json
+[Info - 11:53:13 AM] Found: /home/package.json
+[Info - 11:53:14 AM] Loading format configuration
+[Info - 11:53:14 AM] Loading schematics.
+[Info - 11:53:14 AM] Loading Angular configuration from: /home/thomas/Documents/projects/dataCrate/angular.json
+[Info - 11:53:14 AM] 9 schematic(s) loaded.
+[Info - 11:53:14 AM] Loading "" Angular project's lint configuration.
+[Info - 11:53:14 AM] "dataCrate" Angular project is of type "application" and its source path is: src.
+[Info - 11:53:14 AM] 1 Angular project(s) detected.
+[Info - 11:53:14 AM] Configuration of all workspace folders is now ready. Duration: 1183ms
+[Info - 11:53:54 AM] Reloading format configuration because VS Code settings changed.
+[Info - 3:03:43 PM] Reloading format configuration because VS Code settings changed.

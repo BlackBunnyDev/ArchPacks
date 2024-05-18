@@ -1,0 +1,35 @@
+2024-04-25 11:52:10.818 [INFO]: No proxy settings found
+2024-04-25 11:52:15.002 [ERROR]: fetch failed
+2024-04-25 11:52:16.313 [INFO]: Creating manager directory: /tmp/6df01972-2383-4717-ba2e-d88c466c5d08/codeium/manager
+2024-04-25 11:52:16.804 [INFO]: Using cached LS with valid crc32: /home/thomas/.vscode-oss/extensions/codeium.codeium-1.8.28-universal/dist/f4ccf0178d5d55b7439fe04a696986fe0deea492/language_server_linux_x64
+2024-04-25 11:52:16.813 [INFO]: Language server started
+2024-04-25 11:52:16.977 [INFO]: [Language Server (stderr)]:
+I0425 11:52:16.977234 253491 main.go:553] Starting language server manager with pid 253491
+I0425 11:52:16.977364 253491 main.go:110] Manager acquired its lock file /tmp/6df01972-2383-4717-ba2e-d88c466c5d08/codeium/manager/locks/manager.lock
+2024-04-25 11:52:16.978 [INFO]: [Language Server (stderr)]:
+I0425 11:52:16.977844 253491 main.go:248] Waiting for random port file in /tmp/6df01972-2383-4717-ba2e-d88c466c5d08/codeium/manager/child_random_port_1714022536977483677_2730547787156315598 to be created
+2024-04-25 11:52:17.141 [INFO]: [Language Server (stderr)]:
+I0425 11:52:17.140473 253510 main.go:547] Starting language server process with pid 253510
+I0425 11:52:17.140540 253510 server.go:157] Language server will attempt to listen on host 127.0.0.1
+2024-04-25 11:52:17.141 [INFO]: [Language Server (stderr)]:
+I0425 11:52:17.140651 253510 server.go:164] Language server listening on random port at 36271
+I0425 11:52:17.140710 253510 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0425 11:52:17.140723 253510 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0425 11:52:17.140744 253510 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-04-25 11:52:18.228 [INFO]: [Language Server (stderr)]:
+I0425 11:52:18.226722 253510 unleash.go:90] Initializing Unleash
+2024-04-25 11:52:19.834 [INFO]: [Language Server (stderr)]:
+I0425 11:52:19.833009 253510 unleash.go:110] Successfully initialized Unleash
+2024-04-25 11:52:19.865 [INFO]: [Language Server (stderr)]:
+E0425 11:52:19.864506 253510 client_manager.go:262] Metadata is nil when trying to refresh user JWT
+2024-04-25 11:52:19.866 [INFO]: [Language Server (stderr)]:
+I0425 11:52:19.865766 253510 server.go:356] Successfully created API server client
+2024-04-25 11:52:19.935 [INFO]: [Language Server (stderr)]:
+I0425 11:52:19.930463 253510 server.go:365] Successfully initialized tokenizer
+I0425 11:52:19.930598 253510 server.go:420] Local search is enabled, will index local files.
+I0425 11:52:19.930617 253510 server.go:424] Using 2 indexer workers
+I0425 11:52:19.930667 253510 search_provider.go:164] Using database at /home/thomas/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0425 11:52:19.933053 253510 search_provider.go:176] Successfully created embedding search database
+I0425 11:52:19.933492 253510 search_provider.go:198] Successfully created and started indexer
+I0425 11:52:19.933527 253510 search_provider.go:224] Successfully created embedding search provider
+I0425 11:52:19.933538 253510 server.go:458] Successfully created exact search provider

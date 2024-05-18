@@ -1,0 +1,38 @@
+2024-05-16 23:00:59.277 [info] Getting Manifest... codeium.codeium
+2024-05-16 23:00:59.282 [info] Getting Manifest... pkief.material-icon-theme
+2024-05-16 23:01:01.704 [info] Installing extension: pkief.material-icon-theme
+2024-05-16 23:01:01.709 [info] Installing extension: codeium.codeium
+2024-05-16 23:01:05.005 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-16 23:01:05.005 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-05-16 23:01:05.674 [info] Extracted extension to file:///home/thomas/.vscode-oss/extensions/pkief.material-icon-theme-5.3.0-universal: pkief.material-icon-theme
+2024-05-16 23:01:05.680 [info] Renamed to /home/thomas/.vscode-oss/extensions/pkief.material-icon-theme-5.3.0-universal
+2024-05-16 23:01:05.682 [info] Extracting extension completed. pkief.material-icon-theme
+2024-05-16 23:01:05.696 [info] Extension installed successfully: pkief.material-icon-theme
+2024-05-16 23:01:05.700 [info] Marked extension as uninstalled pkief.material-icon-theme-5.1.0-universal
+2024-05-16 23:01:05.779 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:29989)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30100)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109493)
+2024-05-16 23:01:06.366 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-16 23:01:06.366 [info] Extension signature verification is not done: codeium.codeium
+2024-05-16 23:01:06.596 [info] Extracted extension to file:///home/thomas/.vscode-oss/extensions/codeium.codeium-1.8.37-universal: codeium.codeium
+2024-05-16 23:01:06.612 [info] Renamed to /home/thomas/.vscode-oss/extensions/codeium.codeium-1.8.37-universal
+2024-05-16 23:01:06.616 [info] Extracting extension completed. codeium.codeium
+2024-05-16 23:01:06.629 [info] Extension installed successfully: codeium.codeium
+2024-05-16 23:01:06.632 [info] Marked extension as uninstalled codeium.codeium-1.8.28-universal
+2024-05-16 23:01:06.699 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/thomas/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:29989)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30100)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109493)

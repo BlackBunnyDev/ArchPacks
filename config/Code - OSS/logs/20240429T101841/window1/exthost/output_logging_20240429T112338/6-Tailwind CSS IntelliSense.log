@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/thomas/Documents/projects/multiPro","configPath":"/home/thomas/Documents/projects/multiPro/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/thomas/Documents/projects/multiPro/tailwind.config.js","priority":0},{"pattern":"/home/thomas/Documents/projects/multiPro/**","priority":3}]}]
+[Global] Adding watch patterns: /home/thomas/Documents/projects/multiPro/tailwind.config.js, /home/thomas/Documents/projects/multiPro
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Loaded Tailwind CSS config file: /home/thomas/Documents/projects/multiPro/tailwind.config.js
+[tailwind.config.js] Loaded postcss v8.4.38: /home/thomas/Documents/projects/multiPro/node_modules/postcss
+[tailwind.config.js] Loaded tailwindcss v3.4.3: /home/thomas/Documents/projects/multiPro/node_modules/tailwindcss
+[tailwind.config.js] Building...

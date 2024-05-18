@@ -1,0 +1,4 @@
+2024-05-05 10:49:52.917 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/thomas/todo.md","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-05-05 10:49:53.419 [info] Started local extension host with pid 146810.
+2024-05-05 10:49:56.789 [info] [perf] Render performance baseline is 72ms
+2024-05-05 10:50:18.773 [info] Started local extension host with pid 147711.

@@ -1,0 +1,14 @@
+[Info - 11:52:10 AM] Starting workspace configuration loading.
+[Info - 11:52:10 AM] 1 workspace folder(s) detected.
+[Info - 11:52:10 AM] Loading configuration of "archpacks" workspace folder.
+[Info - 11:52:10 AM] Loading extension configuration
+[Info - 11:52:10 AM] Loading extension configuration from VS Code settings.
+[Info - 11:52:10 AM] Loading dependencies config from package.json.
+[Info - 11:52:10 AM] Found: /home/thomas/archpacks/package.json
+[Info - 11:52:10 AM] Found: /home/thomas/package.json
+[Info - 11:52:10 AM] Found: /home/package.json
+[Info - 11:52:11 AM] Loading format configuration
+[Info - 11:52:11 AM] Loading schematics.
+[Info - 11:52:11 AM] 0 schematic(s) loaded.
+[Warning - 11:52:11 AM] No angular.json found
+[Info - 11:52:11 AM] Configuration of all workspace folders is now ready. Duration: 135ms

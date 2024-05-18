@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/thomas/Documents/projects/multi-effects","configPath":"/home/thomas/Documents/projects/multi-effects/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/thomas/Documents/projects/multi-effects/tailwind.config.js","priority":0},{"pattern":"/home/thomas/Documents/projects/multi-effects/**","priority":3}]}]
+[Global] Adding watch patterns: /home/thomas/Documents/projects/multi-effects/tailwind.config.js, /home/thomas/Documents/projects/multi-effects
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Failed to load workspace modules.
+[tailwind.config.js] Using bundled version of `tailwindcss`: v3.3.0
+[tailwind.config.js] Using bundled version of `postcss`: v8.4.31
+[tailwind.config.js] Building...
