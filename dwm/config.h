@@ -3,8 +3,8 @@
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 /* appearance */
-static const unsigned int borderpx = 3; /* border pixel of windows */
-static const unsigned int gappx = 5;    /* gaps between windows */
+static const unsigned int borderpx = 2; /* border pixel of windows */
+static const unsigned int gappx = 2;    /* gaps between windows */
 static const unsigned int snap = 32;    /* snap pixel */
 static const int swallowfloating =
     0;                        /* 1 means swallow floating windows by default */
