@@ -4,13 +4,12 @@ static const Block blocks[] = {
 
     /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
 
-    {"", "memory", 1, 10},
-    {"", "moonphase", 1, 10},
-    {"", "battery", 1, 10},
-    {"", "disk", 1, 10},
     {"", "cpu", 1, 10},
-    {"", "ipshow", 1, 10},
-
+    {"", "memory", 1, 10},
+    //   {"", "moonphase", 1, 10},
+    // {"", "disk", 1, 10},
+    //{"", "ipshow", 1, 10},
+    {"", "battery", 1, 10},
     {"", "clock", 60, 1},
 };
 

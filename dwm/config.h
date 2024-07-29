@@ -11,7 +11,7 @@ static const int swallowfloating =
 static const int showbar = 1; /* 0 means no bar */
 static const int topbar = 1;  /* 0 means bottom bar */
 static const char *fonts[] = {
-    "Cascadia Code:size=11",
+    "Cascadia Code NF:size=11",
     "JoyPixels:pixelsize=11:antialias=true:autohint=true"};
 static const char dmenufont[] = "JetBrains Mono:size=11";
 static char normbgcolor[] = "#222222";

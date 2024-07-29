@@ -1,9 +1,0 @@
-[Info - 11:23:37 AM] Starting workspace configuration loading.
-[Info - 11:23:37 AM] 1 workspace folder(s) detected.
-[Info - 11:23:37 AM] Loading configuration of "multiPro" workspace folder.
-[Info - 11:23:37 AM] Loading extension configuration
-[Info - 11:23:37 AM] Loading extension configuration from VS Code settings.
-[Info - 11:23:37 AM] Loading dependencies config from package.json.
-[Info - 11:23:37 AM] Found: /home/thomas/Documents/projects/multiPro/package.json
-[Info - 11:23:37 AM] Found: /home/thomas/Documents/projects/package.json
-[Info - 11:23:38 AM] Found: /home/thomas/Documents/package.json

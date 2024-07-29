@@ -1,7 +1,0 @@
-[Global] Creating projects: [{"folder":"/home/thomas/Documents/projects/dataCrate","configPath":"/home/thomas/Documents/projects/dataCrate/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/thomas/Documents/projects/dataCrate/tailwind.config.js","priority":0},{"pattern":"/home/thomas/Documents/projects/dataCrate/src/**/*.{html,ts}","priority":1},{"pattern":"/home/thomas/Documents/projects/dataCrate/**","priority":3}]}]
-[Global] Adding watch patterns: /home/thomas/Documents/projects/dataCrate/tailwind.config.js, /home/thomas/Documents/projects/dataCrate
-[tailwind.config.js] Initializing...
-[tailwind.config.js] Loaded Tailwind CSS config file: /home/thomas/Documents/projects/dataCrate/tailwind.config.js
-[tailwind.config.js] Loaded postcss v8.4.38: /home/thomas/Documents/projects/dataCrate/node_modules/postcss
-[tailwind.config.js] Loaded tailwindcss v3.4.3: /home/thomas/Documents/projects/dataCrate/node_modules/tailwindcss
-[tailwind.config.js] Building...
