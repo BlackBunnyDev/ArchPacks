@@ -102,6 +102,7 @@ static Key keys[] = {
     {MODKEY, XK_w, spawn, {.v = dmenucmd}},
     {MODKEY, XK_Return, spawn, {.v = termcmd}},
     {MODKEY, XK_z, spawn, {.v = takeSs}},
+    {MODKEY, XK_x, spawn, SHCMD("xcolor | xsel --clipboard --input")},
 
     {MODKEY, XK_Tab, view, {0}},
     {MODKEY, XK_0, view, {.ui = ~0}},
