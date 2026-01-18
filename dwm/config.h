@@ -11,15 +11,15 @@ static const int swallowfloating =
 static const int showbar = 1; /* 0 means no bar */
 static const int topbar = 1;  /* 0 means bottom bar */
 static const char *fonts[] = {
-    "Cascadia Code NF:size=11",
-    "JoyPixels:pixelsize=11:antialias=true:autohint=true"};
+    "Cascadia Code NF:size=12",
+    "JoyPixels:pixelsize=12:antialias=true:autohint=true"};
 static const char dmenufont[] = "JetBrains Mono:size=11";
 static char normbgcolor[] = "#222222";
 static char normbordercolor[] = "#444444";
 static char normfgcolor[] = "#bbbbbb";
-static char selfgcolor[] = "#eeeeee";
-static char selbordercolor[] = "#005577";
-static char selbgcolor[] = "#005577";
+static char selfgcolor[] = "#cceaea";
+static char selbordercolor[] = "#978bd2";
+static char selbgcolor[] = "#808080";
 static char *colors[][3] = {
     /*               fg           bg           border   */
     [SchemeNorm] = {normfgcolor, normbgcolor, normbordercolor},
@@ -77,10 +77,8 @@ static char dmenumon[2] =
     "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = {"dmenu_run", "-m", dmenumon, "-fn", dmenufont};
 static const char *termcmd[] = {"st", NULL};
-static const char *takeSs[] = {
-    "sh", "-c",
-    "maim --select | tee ~/Images/SS/$(date +%s).png | xclip -selection "
-    "clipboard -t image/png"};
+static const char *takeSs[] = { "/bin/sh", "-c", 
+    "xfce4-screenshooter -cr -s ~/image/screenshot/$(date +%Y-%m-%d-%X).png", NULL };
 
 static Key keys[] = {
     /* modifier                     key        function        argument */
